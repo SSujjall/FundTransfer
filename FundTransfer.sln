@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{5626BF1F-DD46-4006-B259-995F0AE1FE8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{CFA7DE6C-1524-4E19-8E3D-C5346CA177BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundTransfer.API", "FundTransfer.API\FundTransfer.API.csproj", "{CCBF2E4B-6B35-441E-978C-5195A54C3EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundTransfer.User.Client", "FundTransfer.User.Client\FundTransfer.User.Client.csproj", "{CE6FE4E0-CAE5-4B1E-A38B-D57EC6C390E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCBF2E4B-6B35-441E-978C-5195A54C3EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBF2E4B-6B35-441E-978C-5195A54C3EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBF2E4B-6B35-441E-978C-5195A54C3EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBF2E4B-6B35-441E-978C-5195A54C3EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6FE4E0-CAE5-4B1E-A38B-D57EC6C390E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6FE4E0-CAE5-4B1E-A38B-D57EC6C390E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6FE4E0-CAE5-4B1E-A38B-D57EC6C390E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6FE4E0-CAE5-4B1E-A38B-D57EC6C390E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCBF2E4B-6B35-441E-978C-5195A54C3EEB} = {CFA7DE6C-1524-4E19-8E3D-C5346CA177BE}
+		{CE6FE4E0-CAE5-4B1E-A38B-D57EC6C390E1} = {5626BF1F-DD46-4006-B259-995F0AE1FE8F}
+	EndGlobalSection
+EndGlobal
